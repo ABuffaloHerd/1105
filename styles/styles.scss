@@ -33,6 +33,11 @@ body {
     text-decoration: underline;
 }
 
+.header-subheading {
+    @extend .header-subtitle;
+    font-size: 23px;
+}
+
 .body-text {
     font-family: Arial;
 }
