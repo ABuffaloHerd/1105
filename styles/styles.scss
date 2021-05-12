@@ -15,7 +15,7 @@ $placeholder_colour: #FFFFFF;
 $placeholder_colour2: #000000;
 
 body {
-    background-color: $p2_col2;
+    background-color: $p2_col3;
     background-attachment: fixed;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .content-div {
-    background-color: $p2_col3;
+    background-color: #FFFFFF;
     border: 2px solid black;
     width: 65%;
     float: left;
@@ -92,7 +92,8 @@ body {
         transition: 0.2s;
 
         &:hover {
-            background-color: $p2_col3;
+            background-color: $p2_col2;
+            color: white;
         }
     }
 }
