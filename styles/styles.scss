@@ -11,11 +11,17 @@ $p2_col3: #C64191;
 $p2_col4: #FFFDF7;
 $p2_col5: #0F5257;
 
+$p3_col1: #00A9EF;
+$p3_col2: #0B132B;
+$p3_col3: #1C2541;
+$p3_col4: #3A506B;
+$p3_col5: #6FFFE9;
+
 $placeholder_colour: #FFFFFF;
 $placeholder_colour2: #000000;
 
 body {
-    background-color: $p2_col3;
+    background-image: linear-gradient($p3_col1, $p3_col2);
     background-attachment: fixed;
 }
 
@@ -50,10 +56,11 @@ body {
 .content-div {
     background-color: #FFFFFF;
     border: 2px solid black;
-    width: 65%;
+    width: 75%;
     float: left;
     padding: 10px;
     margin-left: 1%;
+    box-shadow: 5px 5px 10px #000000;
 
     p {
         font-family: Arial, Helvetica, sans-serif;
@@ -86,13 +93,13 @@ body {
         text-decoration: none;
         padding-top: 12px;
         padding-bottom: 12px;
-        background-color: $p2_col4;
+        background-color: $p3_col5;
         color: black;
         transition-timing-function: ease-in-out;
         transition: 0.2s;
 
         &:hover {
-            background-color: $p2_col2;
+            background-color: $p3_col2;
             color: white;
         }
     }
