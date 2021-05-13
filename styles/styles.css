@@ -46,6 +46,7 @@ body {
 .content-div {
   background-color: #FFFFFF;
   width: 100%;
+  padding: 10px 15px 0px 0px;
 }
 
 .content-div p {
