@@ -25,6 +25,12 @@ $placeholder_colour2: #000000;
 //     padding: 0;
 // }
 
+main {
+    width: auto;
+    // margin: 0 20px;
+    // padding: 20;
+}
+
 body {
     background-color: $p3_col1;
     background-attachment: fixed;
@@ -75,11 +81,13 @@ body {
 }
 
 .content-div {
-    background-color: #FFFFFF;
+    background-color:$p3_col4;
     width: 100vw;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;
     max-width: 100vw;
     position: fixed;
+    outline: 2px solid $p3_col1;
+    outline-offset: -5px;
 
     p {
         overflow: break-word;
@@ -92,7 +100,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: $p3_col4;
+    background-color: $p3_col2;
     transition: top 0.2s;
     z-index: 10;
 
@@ -103,13 +111,13 @@ body {
         font-family: arial;
         text-decoration: none;
         padding: 20px;
-        background-color: $p3_col4;
+        background-color: $p3_col2;
         color: white;
         transition-timing-function: ease-in-out;
         transition: 0.2s;
 
         &:hover {
-            background-color: $p3_col2;
+            background-color: $p3_col4;
             color: white;
         }
     }
