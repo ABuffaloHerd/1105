@@ -61,10 +61,22 @@ body {
   outline: 1px solid #6FFFE9;
   outline-offset: -4px;
   color: #6FFFE9;
+  float: left;
 }
 
 .content-div p {
   font-family: sans-serif;
+}
+
+.text-crammer {
+  width: 75%;
+  position: relative;
+}
+
+.image-crammer {
+  width: 20%;
+  position: relative;
+  float: right;
 }
 
 .navigation-div {

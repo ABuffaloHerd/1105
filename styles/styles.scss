@@ -91,10 +91,22 @@ body {
     outline: 1px solid $p3_col5;
     outline-offset: -4px;
     color: $p3_col5;
+    float: left;
 
     p {
         font-family: sans-serif;
     }
+}
+
+.text-crammer {
+    width: 75%;
+    position: relative;
+}
+
+.image-crammer {
+    width: 20%;
+    position: relative;
+    float: right;
 }
 
 .navigation-div {
