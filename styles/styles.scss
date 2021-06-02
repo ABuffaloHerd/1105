@@ -135,3 +135,25 @@ body {
     height: 100vh;
     text-align: center;
 }
+
+.leeway-clear-div {
+    top: 25%;
+    height: 20vh;
+    text-align: center;
+    padding-bottom: 15vh;
+}
+
+.content-div-2 {
+    @extend .content-div;
+    width: 99.5vw;
+    height: 100vh;
+}
+
+.reference-list {
+    @extend .body-text;
+    font-size: 24px;
+
+    li {
+        padding-bottom: 12px;
+    }
+}

@@ -45,7 +45,7 @@ body {
   font-size: 23px;
 }
 
-.body-text {
+.body-text, .reference-list {
   font-family: Arial;
   overflow: break-word;
 }
@@ -55,7 +55,7 @@ body {
   margin: auto;
 }
 
-.content-div {
+.content-div, .content-div-2 {
   background-color: #1C2541;
   padding: 10px 0px 10px 10px;
   outline: 1px solid #6FFFE9;
@@ -64,7 +64,7 @@ body {
   float: left;
 }
 
-.content-div p {
+.content-div p, .content-div-2 p {
   font-family: sans-serif;
 }
 
@@ -113,5 +113,25 @@ body {
 .clear-div {
   height: 100vh;
   text-align: center;
+}
+
+.leeway-clear-div {
+  top: 25%;
+  height: 20vh;
+  text-align: center;
+  padding-bottom: 15vh;
+}
+
+.content-div-2 {
+  width: 99.5vw;
+  height: 100vh;
+}
+
+.reference-list {
+  font-size: 24px;
+}
+
+.reference-list li {
+  padding-bottom: 12px;
 }
 /*# sourceMappingURL=styles.css.map */
