@@ -135,4 +135,14 @@ body {
 .reference-list li {
   padding-bottom: 12px;
 }
+
+a {
+  color: whitesmoke;
+}
+
+.ethical-table {
+  border: 1px solid #6FFFE9;
+  width: 99.09vw;
+  text-align: justify;
+}
 /*# sourceMappingURL=styles.css.map */
