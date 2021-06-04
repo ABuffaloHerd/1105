@@ -48,6 +48,7 @@ body {
 .body-text, .reference-list {
   font-family: Arial;
   overflow: break-word;
+  text-align: justify;
 }
 
 .wrapper-1 {
