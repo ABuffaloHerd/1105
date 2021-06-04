@@ -126,7 +126,7 @@ body {
 
 .content-div-2 {
   width: 99.5vw;
-  height: 100vh;
+  height: auto;
 }
 
 .reference-list {
