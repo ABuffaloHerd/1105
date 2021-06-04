@@ -72,6 +72,7 @@ body {
     font-family: Arial;
     overflow: break-word;
     text-align: justify;
+    font-size: 17px;
 }
 
 .wrapper-1 {
@@ -167,4 +168,23 @@ a {
     border: 1px solid $p3_col5;
     width: 99.09vw;
     text-align: justify;
+
+    th {
+        font-family: sans-serif;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    td {
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    a {
+        font-family: sans-serif;
+        font-size: 20px;
+    }
 }
