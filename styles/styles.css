@@ -139,12 +139,24 @@ body {
 
 a {
   color: whitesmoke;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  -webkit-filter: blur(0.5px);
+          filter: blur(0.5px);
 }
 
 .ethical-table {
   border: 1px solid #6FFFE9;
   width: 99.09vw;
   text-align: justify;
+  border-collapse: collapse;
 }
 
 .ethical-table th {
@@ -152,6 +164,8 @@ a {
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
+  padding: 10px;
+  border: 1px solid #6FFFE9;
 }
 
 .ethical-table td {
@@ -159,10 +173,35 @@ a {
   font-size: 20px;
   text-align: center;
   padding: 10px;
+  border: 1px solid #6FFFE9;
 }
 
 .ethical-table a {
   font-family: sans-serif;
   font-size: 20px;
+}
+
+.support-links {
+  list-style-type: square;
+}
+
+.support-links li {
+  text-decoration: none;
+}
+
+.support-links li a {
+  color: whitesmoke;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: sans-serif;
+}
+
+.support-links li a:visited {
+  color: gray;
+}
+
+.support-links li a:hover {
+  -webkit-filter: blur(0.5px);
+          filter: blur(0.5px);
 }
 /*# sourceMappingURL=styles.css.map */
