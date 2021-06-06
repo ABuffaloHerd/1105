@@ -129,6 +129,22 @@ body {
   height: auto;
 }
 
+.content-div-2 a {
+  color: whitesmoke;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: sans-serif;
+}
+
+.content-div-2 a:visited {
+  color: gray;
+}
+
+.content-div-2 a:hover {
+  -webkit-filter: blur(0.5px);
+          filter: blur(0.5px);
+}
+
 .reference-list {
   font-size: 24px;
 }

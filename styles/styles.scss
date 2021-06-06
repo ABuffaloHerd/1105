@@ -22,6 +22,19 @@ $p3_col5: #6FFFE9;
 $placeholder_colour: #FFFFFF;
 $placeholder_colour2: #000000;
 
+@mixin links {
+    color: whitesmoke;
+    transition: 0.3s;
+
+    &:visited {
+        color: gray;
+    }
+
+    &:hover {
+        filter: blur(0.5px);
+    }
+}
+
 main {
     width: auto;
 }
@@ -151,6 +164,11 @@ body {
     @extend .content-div;
     width: 99.5vw;
     height: auto;
+
+    a {
+        @include links;
+        font-family: sans-serif;
+    }
 }
 
 .reference-list {
@@ -159,19 +177,6 @@ body {
 
     li {
         padding-bottom: 12px;
-    }
-}
-
-@mixin links {
-    color: whitesmoke;
-    transition: 0.3s;
-
-    &:visited {
-        color: gray;
-    }
-
-    &:hover {
-        filter: blur(0.5px);
     }
 }
 
